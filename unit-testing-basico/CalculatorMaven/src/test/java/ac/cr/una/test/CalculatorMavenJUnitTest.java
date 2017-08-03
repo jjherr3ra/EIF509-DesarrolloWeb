@@ -3,27 +3,26 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+package ac.cr.una.test;
 
-import org.junit.After;
-import org.junit.AfterClass;
+import ac.cr.una.calculatormaven.Calculator;
 import org.junit.Before;
-import org.junit.BeforeClass;
 import org.junit.Test;
 import static org.junit.Assert.*;
-import calculator.Calculator;
 
 /**
  *
  * @author mguzmana
  */
-public class CalculatorJUnitTest {
+public class CalculatorMavenJUnitTest {
     
-    /**
-     * Empty Constructor
-     */
-    public CalculatorJUnitTest() {
+    public CalculatorMavenJUnitTest() {
     }
     
+    @Before
+    public void setUp() {
+    }
+
     /**
      * Test the Calculator
      */
